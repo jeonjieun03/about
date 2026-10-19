@@ -109,7 +109,18 @@ body { overflow-x:hidden; border-top:6px solid var(--accent); }
   <h2>대표작</h2>
   <p class="sub">직접 해 보고 기록한 것</p>
   <article class="work">
-    <p class="kind">논문 · 2026년 9월 30일 · 과제 10</p>
+    <p class="kind">네트워크 구성 · 2026년 10월 · GNS3</p>
+    <h3>9대 라우터 · 4개 라우팅 프로토콜 상호 재분배 구성</h3>
+    <dl>
+      <dt>목표</dt><dd>RIP, OSPF, IS-IS, EIGRP를 쓰는 네 개의 망을 경계 라우터 R5에서 상호 재분배해 전 구간 통신 구성</dd>
+      <dt>한 것</dt><dd>주소·영역 설계, 프로토콜별 메트릭을 맞춘 재분배 설정, 끝 라우터끼리 ping과 라우팅 테이블로 검증</dd>
+      <dt>결과</dt><dd>네 영역의 끝 라우터 사이 6개 구간 ping 모두 성공</dd>
+      <dt>배운 점</dt><dd>재분배가 한 대에 몰리면 그 장비가 단일 장애 지점이 되므로, 실제 환경에서는 이중화가 필요하다</dd>
+    </dl>
+    <a class="btn" href="network-portfolio.pdf" target="_blank" rel="noopener">포트폴리오 보기 (PDF)</a>
+  </article>
+  <article class="work">
+    <p class="kind">논문 · 2026년 9월 30일 · SKT ALEPH 과정</p>
     <h3>DVWA 보안 레벨에 따른 웹 공격 성공률 변화 분석</h3>
     <dl>
       <dt>질문</dt><dd>보안 레벨을 올리면 공격은 정말 막힐까? 공격 종류에 따라 다를까?</dd>
@@ -121,7 +132,7 @@ body { overflow-x:hidden; border-top:6px solid var(--accent); }
     <a class="btn" href="paper.pdf" target="_blank" rel="noopener">논문 전체 보기 (PDF)</a>
   </article>
     <article class="work">
-    <p class="kind">앱 · 2026년 10월 8일 · 과제 13</p>
+    <p class="kind">앱 · 2026년 10월 8일 · SKT ALEPH 과정</p>
     <h3>블랙리스트 필터 체험기</h3>
     <dl>
       <dt>돕는 것</dt><dd>웹 보안을 처음 배우는 사람이, 블랙리스트 필터가 어떤 공격을 막고 무엇을 놓치는지 직접 넣어 보며 확인하도록 돕는 실험 도구입니다.</dd>
